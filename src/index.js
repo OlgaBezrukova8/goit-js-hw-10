@@ -35,7 +35,6 @@ function renderCountryCard(country) {
     Notify.info('Too many matches found. Please enter a more specific name.');
     return;
   } else if (country.length >= 2 && country.length <= 10) {
-    console.log('object');
     markup = country
       .map(({ name, flags }) => {
         return `
