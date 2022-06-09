@@ -18,3 +18,28 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country__name {
+  font-size: 18px;
+}
+
+.country__text {
+  font-size: 12px;
+}
+
+.list:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.country-list {
+  margin: 0;
+  padding: 0;
+}
+
+.coutry__image {
+  margin-right: 10px;
+}
+
+.text {
+  font-weight: 800;
+}
